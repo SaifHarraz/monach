@@ -1,0 +1,361 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif, serif;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+span.block{
+    display: block;
+}
+body{
+    width: 100%;
+    
+}
+header{
+   width: 100%;
+   background-color: #F8C365;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    gap: 2%;
+    flex-direction: row;
+    padding: 70px 0px 40px 0px ;
+    
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+header nav ul li{
+    padding:0px 20px ;
+     
+}
+header nav ul li a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
+header nav ul#pages li a{
+   font-size: 22px;
+}
+header nav ul#logo li {
+   font-size: 32px;
+}
+header nav ul#acc li a{
+   font-size: 22px;
+   
+   
+}
+header nav ul#acc li{
+    padding: 10px;
+}
+header nav ul#acc li a#signup{
+    padding:20px 40px ;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+}
+header section#firstsection{
+    display: flex;
+    justify-content: space-around;
+    padding: 200px 0 50px 0;
+    
+}
+header section#firstsection div{
+     
+}
+header section#firstsection div#left{
+    width: 38%;
+}
+header section#firstsection div#right{
+   width: 24%;
+   padding: 70px 0;
+}
+header section#firstsection div#left h1{
+    padding: 0px;
+    font-size: 110px;
+    word-spacing: -10px;
+   
+
+}
+header section#firstsection h1 span.italic{
+    background-color: black;
+    font-family: serif;
+    font-style: italic;
+    font-weight: 200;
+    padding: 0px 15px 0px 25px ;
+    border: 1px solid black;
+    border-radius: 90px;
+    color: #F8C365;
+}
+header section#firstsection div#right p{
+    font-size: 24px;
+    color: rgb(62, 62, 62);
+    line-height:34px ;
+    padding-bottom: 50px;
+    
+}
+header section#firstsection div#right a{
+   font-size: 26px;
+   font-weight: 600;
+   padding: 20px 30px;
+   border: 2px solid black ;
+   border-radius: 40px;
+}
+header section#firstsection div#right a i{
+
+}
+
+
+
+main section#numsection{
+    padding: 150px 0;
+}
+main section#numsection ul#num{
+    display: flex;
+    list-style:none;
+    justify-content: space-around;
+    padding: 0px 100px;
+}
+main section#numsection ul#num li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 15%;
+
+}
+main section#numsection ul#num li p:first-child{
+      font-size: 60px;
+      font-weight: 700;
+      padding-bottom: 15px;
+}
+main section#numsection ul#num li p:nth-child(2){
+    font-size: 20px;
+    color: gray;
+}
+main section#numsection ul#num li:not(:last-child)::after{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 30px;
+    background-color: #F8C365;
+    border:1px solid #F8C365 ; 
+    top: 45%;
+    left: 130%;
+    
+
+}
+main section#fourthsection{
+    background-color: rgb(255,246, 229);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 150px 150px;
+    padding-bottom: 80px;
+}
+main section#fourthsection div{
+  
+}
+main section#fourthsection div#left{
+    
+    width: 60%;
+    margin-left: -40px;
+    
+    
+}
+main section#fourthsection div#left img{
+    width: 100%;
+}
+
+main section#fourthsection div#right{
+   padding-top:65px;
+   padding-right: 30px;
+   display: flex;
+   flex-direction: column;
+   width: 30%;
+   
+} 
+main section#fourthsection div#right h2{
+    
+    font-size: 80px;
+    padding-bottom:10px ;
+    
+    
+   
+}
+main section#fourthsection div#right h2 span.italic{
+    background-color: #F8C365;
+    font-family: serif;
+    font-style: italic;
+    font-weight: lighter;
+    margin-right: 15px;
+    padding: 0px 25px 0px 25px ;
+    border: 2px solid black;
+    border-radius: 90px;
+    color: black;
+
+}
+main section#fourthsection div#right p{
+    font-size: 24px;
+    color: rgb(72, 72,72);
+    line-height:34px ;
+    padding:30px 0px 50px 0px;
+}
+main section#fifthsection{
+    padding:100px 75px ;
+} 
+
+    
+main section#fifthsection #container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow: hidden;
+    padding: 50px;
+}
+main section#fifthsection #container div{
+    box-shadow: 0 0 200px rgb(248, 195, 101,.3);
+    margin: .001px;
+}  
+main section#fifthsection #container div#larger{
+        width: 59%;
+        background-color: black;
+        border-radius: 30px;
+        height: 460px;
+        display: flex;
+        flex-direction: column;
+        padding:70px 0px 20px 100px ;
+
+}
+main section#fifthsection #container div.top{
+    margin-bottom: 61px;
+}
+main section#fifthsection #container div#larger h2{
+       color: white;
+       font-size: 70px;
+      
+}
+
+main section#fifthsection #container div#larger span.italic{
+    font-family: serif; 
+    font-style: italic; 
+    font-weight: lighter;
+    color:#F8C365;
+    
+}
+main section#fifthsection #container div#larger a{
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 80px;
+    width:fit-content;
+    padding: 20px 30px;
+    background-color: #F8C365;
+    color: black;
+    border: 2px solid black ; 
+    border-radius: 40px;
+}
+main section#fifthsection #container div.smaller{
+        min-width: 25% ;
+        width: 27.5%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border: 2px solid white;
+        border-radius: 30px;
+        padding: 20px;
+        height: 460px;
+        
+
+       
+
+}  
+main section#fifthsection #container div.smaller i{
+        font-size: 80px;
+        
+        padding: 40px ;
+        
+}
+main section#fifthsection #container div.smaller h3{
+    font-size: 30px;
+    align-self:baseline;
+    padding: 20px 0 20px  10px ;
+}
+main section#fifthsection #container div.smaller p{
+    font-size: 24px;
+    line-height: 34px;
+    color: rgb(72, 72,72);
+}
+main section#fifthsection #container div.bottom{
+      
+}
+main section#sixthsection{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 130px;
+    padding: 150px 0px;
+    align-items: center;
+    
+}
+main section#sixthsection h2{
+    font-size: 70px;
+    color: white;
+}
+main section#sixthsection h2 .italic{
+    font-family: serif; 
+    font-style: italic; 
+    font-weight: lighter;
+    color:#F8C365;
+    border: 2px solid #F8C365; 
+    border-radius:90px ;
+    margin-left: 15px;
+}
+main section#sixthsection div#projectcontainer{
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+main section#sixthsection div#projectscontainer .project{
+    min-width: 25%;
+    width: 350px;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    color: black;
+    border:1px solid black ;
+    border-radius: 25px;
+    overflow: hidden;
+    
+    
+}
+main section#sixthsection div#projectscontainer .project .top1project img{
+       width: 100%;
+       padding: 0;
+       margin: 0;
+       
+    
+}
+main section#sixthsection div#projectcontainer .project .top2project div#top2project{
+    display: flex;
+    
+    
+}
